@@ -1,0 +1,125 @@
+@font-face {
+    font-family: TokyoNight;
+    src: url(Fonts/Tokyo\ Night.otf);
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background: hsla(318, 42%, 85%, 1);
+    background: linear-gradient(270deg, hsla(318, 42%, 85%, 1) 50%, hsla(190, 53%, 56%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(318, 42%, 85%, 1) 50%, hsla(190, 53%, 56%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(318, 42%, 85%, 1) 50%, hsla(190, 53%, 56%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e8c7de", endColorstr="#54b6ca", GradientType=1 );
+}
+
+#hero {
+    background-image: url(Images/Tokyo-Hero-Section.jpg);
+    background-size: cover;
+    min-height: 342px;
+    width: 100%;
+    height: 700px;
+    padding-top: 100px;
+    font-family: 'TokyoNight', sans-serif;
+}
+
+#hero-Tokyo {
+    border: 1px solid #D96C6C;
+    width: 250px;
+    height: 250px;
+    margin: 100px auto 2px auto;
+    line-height: 70px;
+    color: #620505;
+    background-color: #d96c6cce;
+    border-radius: 10%;
+    box-shadow: 0px 0px 100px #d96c6c;
+    text-shadow: 4px 2px 2px #e1d3cf;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+#hero-comment {
+    border: 1px solid #47949b;
+    border-radius: 18%;
+    width: 500px;
+    height: 80px;
+    line-height: 50%;
+    margin: 10px auto 2px auto;
+    background-color: #47949b;
+    color: #D96C6C;
+    text-shadow: 4px 2px 5px black;
+    box-shadow: 2px 2px 20px #47949b;
+    font-size: 28px;
+}
+
+#places {
+    margin: 40px auto 20px auto;
+    font-family: 'Inter', sans-serif;
+    height: 500px;
+    font-weight: 500;
+    color: #620505;
+}
+
+#title-places {
+    text-shadow: 1px 2px 10px rgb(163, 85, 85);
+}
+
+#question-places {
+    color: #1c939d;
+    text-shadow: 1px 2px 1px #346570;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    text-shadow: 1.5px 0px #ddc4c4;
+    font-weight: 300;
+}
+
+.attraction-img {
+    width: 180px;
+    height: auto;
+    border: 4px solid #e1d3cf;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px #df1616;
+}
+
+.attraction {
+    width: 400px;
+}
+
+#capybara-cafe {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    max-width: 700px;
+    margin: 50px auto 80px auto;
+    background: #d4b7cb;
+    padding: 10px 7px 10px 9px;
+    border: 4px solid #87aeb5;
+    border-radius: 3%;
+}
+
+#capybara-img {
+    width: 400px;
+    border-radius: 3%;
+}
+
+#capybara-cafe-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 4px;
+    color:#983939;
+    text-shadow: 0px 0px 2px #8f8197;
+    font-weight: 500px;
+}
+
+#cafe-link:hover {
+    color: rgb(204, 21, 168);
+    text-shadow: 0px 0px 6px #a255cf;
+}
